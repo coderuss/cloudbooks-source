@@ -26,5 +26,5 @@ install:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 before_script:
-  #- composer install
+  - composer install -vvv
 script: phpunit
